@@ -4,7 +4,7 @@ const initialState = {
 
 const cakeReducer = (state = initialState, action) => {
   switch (action.type) {
-    case "INCREMENT_CAKE":
+    case "BUY_CAKE":
       return {
         ...state,
         numOfCakes: state.numOfCakes - 1,
