@@ -1,4 +1,4 @@
 import { createStore } from "redux";
-import cakeReducer from "./redux/reducers/cakeReducer";
+import rootReducer from "./redux/rootReducers";
 
-export const store = createStore(cakeReducer);
+export const store = createStore(rootReducer);
